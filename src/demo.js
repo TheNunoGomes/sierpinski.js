@@ -9,7 +9,7 @@ const canvas = document.getElementById("map");
 const ctx = canvas.getContext("2d");
 
 const vertices = [
-  new Point(MIN_X, 600),
+  new Point(MIN_X, LOWER_Y),
   new Point(MAX_X, LOWER_Y),
   new Point(UPPER_X, UPPER_Y),
 ];
